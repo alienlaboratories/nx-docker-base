@@ -1,0 +1,57 @@
+#
+# ./tools/python/bin/pip install --upgrade pip
+# ./tools/python/bin/pip install --upgrade -r requirements.txt
+# ./tools/python/bin/pip list
+#
+
+#
+# Testing
+#
+
+fakeredis
+mock
+nose
+nose-exclude
+nose-progressive
+
+#
+# Packages
+#
+
+arrow
+easydict
+httpretty
+ijson
+markdown
+parse
+prefixtree
+protobuf
+pyyaml
+requests
+requests_oauthlib
+sortedcontainers
+
+#
+# Services
+#
+
+elasticsearch
+celery[redis]
+gdata
+google-api-python-client
+py2neo
+python-memcached
+redis
+tutum
+
+#
+# Flask
+#
+
+Flask
+Flask-Assets
+flask-environments
+Flask-Injector
+Flask-Login
+flask-socketio==1.0b1
+Flask-Testing
