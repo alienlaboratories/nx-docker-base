@@ -9,6 +9,7 @@
 #
 
 fakeredis
+fake-factory
 mock
 nose
 nose-exclude
